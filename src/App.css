@@ -6,8 +6,8 @@
 :root{
     /*================COLOR=============*/
     /*================Color HSL(hue, saturation, lightness)=============*/
-    --first-color: hsl(271, 76%, 53%);
-    --title-color: hsl(0, 0%, 40%);
+    --first-color: hsl(189, 94%, 41%);
+    --title-color: hsl(301, 100%, 8%);
     --text-color: hsl(0, 0%, 50%);
     --body-color: hsl(0, 0%, 100%);
     --container-color: hsl(0, 0%, 93%);
