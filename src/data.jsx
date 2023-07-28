@@ -63,25 +63,25 @@ export const personalInfo = [
     {
         id: 1,
         title: 'First Name : ',
-        description: 'Steve',
+        description: 'Amberlis',
     },
 
     {
         id: 2,
         title: 'Last Name : ',
-        description: 'Milner',
+        description: 'Laya Madera',
     },
 
     {
         id: 3,
         title: 'Age : ',
-        description: '27 Years',
+        description: '35 Years',
     },
 
     {
         id: 4,
         title: 'Nationality : ',
-        description: 'Tunisian',
+        description: 'Venezolana',
     },
 
     {
@@ -93,31 +93,31 @@ export const personalInfo = [
     {
         id: 6,
         title: 'Address : ',
-        description: 'Tunis',
+        description: 'Argentina',
     },
 
     {
         id: 7,
         title: 'Phone : ',
-        description: '+21621184010',
+        description: '+54 9 1122781197',
     },
 
     {
         id: 8,
         title: 'Email : ',
-        description: 'you@mail.com',
+        description: 'laya.playapps@gmail.com',
     },
 
     {
         id: 9,
-        title: 'Skype : ',
-        description: 'steve.milner',
+        title: 'LinkedIn : ',
+        description: 'Amberlis L M',
     },
 
     {
         id: 10,
         title: 'Langages : ',
-        description: 'French, English',
+        description: 'Spanish, English',
     },
 ];
 
@@ -207,7 +207,7 @@ export const skills = [
     {
         id: 1,
         title: 'Html',
-        percentage: '25',
+        percentage: '45',
     },
 
     {
@@ -219,13 +219,7 @@ export const skills = [
     {
         id: 3,
         title: 'Css',
-        percentage: '70',
-    },
-
-    {
-        id: 4,
-        title: 'Php',
-        percentage: '66',
+        percentage: '80',
     },
 
     {
@@ -241,15 +235,9 @@ export const skills = [
     },
 
     {
-        id: 7,
-        title: 'Angular',
-        percentage: '65',
-    },
-
-    {
         id: 8,
         title: 'React',
-        percentage: '45',
+        percentage: '80',
     },
 ];
 
