@@ -266,7 +266,8 @@ export const portfolio = [
             {
                 icon: <FiExternalLink />,
                 title: 'Preview : ',
-                desc: 'https://portf-layam.netlify.app/',
+                desc: <a href="https://portf-layam.netlify.app/" target="_blank" rel="noopener noreferrer">https://portf-layam.netlify.app/</a>,
+                
             },
         ],
     },
@@ -294,7 +295,8 @@ export const portfolio = [
             {
                 icon: <FiExternalLink />,
                 title: 'Preview : ',
-                desc: 'https://rickmortylaya.netlify.app/',
+                desc: <a href="https://rickmortylaya.netlify.app/" target="_blank" rel="noopener noreferrer">https://rickmortylaya.netlify.app/</a>,
+                
             },
         ],
     },

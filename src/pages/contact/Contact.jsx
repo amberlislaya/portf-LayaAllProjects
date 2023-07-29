@@ -5,6 +5,7 @@ import {
   FaEnvelopeOpen,
   FaLinkedin,
   FaYoutubeSquare,
+  FaGithubAlt,
   FaDribbble,
   FaInstagram,
 } from 'react-icons/fa';
@@ -68,6 +69,10 @@ const Contact = () => {
 
 <a href="https://dribble.com" className="contact__social-link" >
 	<FaDribbble/>
+</a>
+
+<a href="https://github.com/amberlislaya" className="contact__social-link" >
+  <FaGithubAlt/>
 </a>
 </div>
 

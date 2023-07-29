@@ -63,7 +63,7 @@ padding: 15px;
     padding: 32px;
     border-radius: 10px;
     position: relative;
-    box-shadow: 5px 12px 5px rgb(7, 206, 216);
+    /* box-shadow: 5px 12px 5px rgb(7, 206, 216); */
 }
 
 .modal__close {
