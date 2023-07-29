@@ -67,7 +67,7 @@ const Contact = () => {
   <FaYoutubeSquare/>
 </a>
 
-<a href="https://dribble.com" className="contact__social-link" >
+<a href="https://portfolio-amberlislaya.netlify.app/" className="contact__social-link" >
 	<FaDribbble/>
 </a>
 
