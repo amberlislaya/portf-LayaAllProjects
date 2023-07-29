@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css';
-import Profile from '../../assets/amber6.jpg'
+import Profile from '../../assets/foto4.jpeg'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
 

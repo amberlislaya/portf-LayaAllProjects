@@ -16,16 +16,16 @@ import Work4 from './assets/port4.png';
 import Work5 from './assets/rym.png';
 import Work6 from './assets/rym2.png';
 
-// import Theme1 from './assets/purple.png';
-// import Theme2 from './assets/red.png';
-// import Theme3 from './assets/blueviolet.png';
-// import Theme4 from './assets/blue.png';
-// import Theme5 from './assets/goldenrod.png';
-// import Theme6 from './assets/magenta.png';
-// import Theme7 from './assets/yellowgreen.png';
-// import Theme8 from './assets/orange.png';
-// import Theme9 from './assets/green.png';
-// import Theme10 from './assets/yellow.png';
+import Theme1 from './assets/purple.png';
+import Theme2 from './assets/red.png';
+import Theme3 from './assets/blueviolet.png';
+import Theme4 from './assets/blue.png';
+import Theme5 from './assets/goldenrod.png';
+import Theme6 from './assets/magenta.png';
+import Theme7 from './assets/yellowgreen.png';
+import Theme8 from './assets/orange.png';
+import Theme9 from './assets/green.png';
+import Theme10 from './assets/yellow.png';
 
 export const links = [
     {
@@ -61,61 +61,56 @@ export const personalInfo = [
     {
         id: 1,
         title: 'First Name : ',
-        description: 'Steve',
+        description: 'Amberlis',
     },
 
     {
         id: 2,
         title: 'Last Name : ',
-        description: 'Milner',
+        description: 'Laya Madera',
     },
 
     {
         id: 3,
         title: 'Age : ',
-        description: '27 Years',
+        description: '34 Years',
     },
 
     {
         id: 4,
         title: 'Nationality : ',
-        description: 'Tunisian',
+        description: 'Venezuela',
     },
 
     {
         id: 5,
         title: 'Freelance : ',
-        description: 'Available',
+        description: 'Developer Frontend - Full Stack Development ',
     },
 
     {
         id: 6,
         title: 'Address : ',
-        description: 'Tunis',
+        description: 'Argentina',
     },
 
     {
         id: 7,
         title: 'Phone : ',
-        description: '+21621184010',
+        description: '+54 9 1122781197',
     },
 
     {
         id: 8,
         title: 'Email : ',
-        description: 'you@mail.com',
+        description: 'laya.playapps@mail.com',
     },
 
-    {
-        id: 9,
-        title: 'Skype : ',
-        description: 'steve.milner',
-    },
 
     {
         id: 10,
         title: 'Langages : ',
-        description: 'French, English',
+        description: 'Advanced Spanish, Basic English ',
     },
 ];
 
@@ -150,54 +145,63 @@ export const resume = [
         id: 1,
         category: 'experience',
         icon: <FaBriefcase />,
-        year: '2018 - PRESENT',
-        title: 'Web Developer <span> Envato </span>',
-        desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+        year: '2021 - 2022',
+        title: 'Store Manager <span> Ace Deports </span>',
+        desc: 'As a store manager of a sports goods retail shop, you will be responsible for overseeing daily operations, managing inventory, and leading the sales team. Your goal will be to ensure excellent customer service and achieve sales targets.',
     },
 
     {
         id: 2,
         category: 'experience',
         icon: <FaBriefcase />,
-        year: '2013 - 2018',
-        title: 'UI/UX Designer <span> Themeforest </span>',
-        desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+        year: '2016 - 2017',
+        title: 'Chef in Charge <span> Restaurant El Asador </span>',
+        desc: 'The position of Head Chef involves overseeing and leading the kitchen team, ensuring the quality and presentation of dishes. Additionally, they plan and coordinate kitchen activities to ensure operational efficiency and customer satisfaction.',
     },
 
     {
         id: 3,
         category: 'experience',
         icon: <FaBriefcase />,
-        year: '2005 - 2013',
-        title: 'Consultant <span> Videohive </span>',
-        desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+        year: '2011 - 2012',
+        title: 'Cashier, Promoter <span> Banc Banesco </span>',
+        desc: 'Banesco Cashier, Responsible for attending to customers at the counter, conducting financial transactions, and providing efficient and friendly customer service, Promoter, Tasked with promoting the banks products and services, attracting new customers, providing information about offers, and assisting in handling account and loan applications.',
     },
 
     {
         id: 4,
         category: 'education',
         icon: <FaGraduationCap />,
-        year: '2015',
-        title: 'Engineering Degree <span> Oxford University </span>',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+        year: '2005',
+        title: 'Bachelor of Science <span> "Caruao" National Educational Unit (UENC) </span>',
+        desc: 'Bachelor of Science',
     },
 
     {
         id: 5,
         category: 'education',
         icon: <FaGraduationCap />,
-        year: '2012',
-        title: 'Master Degree <span> KIEV University </span>',
-        desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+        year: '2010-2016',
+        title: 'Civil Engineering <span> National Experimental University of the National Armed Force (UNEFA) </span>',
+        desc: 'Maintenance, control, and operation of constructions',
+    },
+
+    {
+        id: 5,
+        category: 'education',
+        icon: <FaGraduationCap />,
+        year: '2015',
+        title: 'Chef <span> Casserole Du Chef </span>',
+        desc: 'To master culinary arts and manage kitchen operations. Chefs learn to create delicious dishes and attractive presentations in the gastronomic industry.',
     },
 
     {
         id: 6,
         category: 'education',
         icon: <FaGraduationCap />,
-        year: '2009',
-        title: 'Bachelor Degree <span> Tunis High School </span>',
-        desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+        year: '2023',
+        title: 'Full Stack Development <span> Soy Henry </span>',
+        desc: 'The Full Stack Development career trains versatile professionals capable of creating complete web applications from frontend to backend. It requires knowledge of client-side and server-side programming languages, as well as skills in handling databases and security. Full Stack Developers work in teams and stay up-to-date with the latest technologies.',
     },
 ];
 
@@ -205,25 +209,19 @@ export const skills = [
     {
         id: 1,
         title: 'Html',
-        percentage: '25',
+        percentage: '35',
     },
 
     {
         id: 2,
         title: 'Javascript',
-        percentage: '89',
+        percentage: '70',
     },
 
     {
         id: 3,
         title: 'Css',
-        percentage: '70',
-    },
-
-    {
-        id: 4,
-        title: 'Php',
-        percentage: '66',
+        percentage: '80',
     },
 
     {
@@ -235,15 +233,8 @@ export const skills = [
     {
         id: 6,
         title: 'Jquery',
-        percentage: '50',
+        percentage: '45',
     },
-
-    {
-        id: 7,
-        title: 'Angular',
-        percentage: '65',
-    },
-
     {
         id: 8,
         title: 'React',
@@ -255,27 +246,27 @@ export const portfolio = [
     {
         id: 1,
         img: Work1,
-        title: 'Photo Editing',
+        title: 'Portfolio Digital',
         details: [
             {
                 icon: <FiFileText />,
                 title: 'Project : ',
-                desc: 'Photo',
+                desc: 'Web Frontend',
             },
             {
                 icon: <FiUser />,
                 title: 'Client : ',
-                desc: 'Dribble',
+                desc: 'Personal',
             },
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'Adobe Photoshop',
+                desc: 'React jsx, Bootstrap',
             },
             {
                 icon: <FiExternalLink />,
                 title: 'Preview : ',
-                desc: 'www.dribble.com',
+                desc: 'https://portf-layam.netlify.app/',
             },
         ],
     },
@@ -288,22 +279,22 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'Project : ',
-                desc: 'Website',
+                desc: 'Website Rick And Morty',
             },
             {
                 icon: <FiUser />,
                 title: 'Client : ',
-                desc: 'Dribble',
+                desc: ' Soy Henry',
             },
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'React JS',
+                desc: 'React JSX',
             },
             {
                 icon: <FiExternalLink />,
                 title: 'Preview : ',
-                desc: 'www.dribble.com',
+                desc: 'https://rickmortylaya.netlify.app/',
             },
         ],
     },
@@ -311,22 +302,22 @@ export const portfolio = [
     {
         id: 3,
         img: Work3,
-        title: 'Video Editing',
+        title: 'Country Website',
         details: [
             {
                 icon: <FiFileText />,
-                title: 'Project : ',
-                desc: 'Video',
+                title: 'Project Individual: ',
+                desc: 'Web',
             },
             {
                 icon: <FiUser />,
-                title: 'Client : ',
+                title: 'Soy Henry : ',
                 desc: 'Dribble',
             },
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'Adobe Premium',
+                desc: 'React Jsx, SQL, Redux, DB',
             },
             {
                 icon: <FiExternalLink />,
@@ -417,64 +408,64 @@ export const portfolio = [
     },
 ];
 
-// export const themes = [
-//     {
-//         id: 1,
-//         img: Theme1,
-//         color: 'hsl(252, 35%, 51%)',
-//     },
+export const themes = [
+    {
+        id: 1,
+        img: Theme1,
+        color: 'hsl(252, 35%, 51%)',
+    },
 
-//     {
-//         id: 2,
-//         img: Theme2,
-//         color: 'hsl(4, 93%, 54%)',
-//     },
+    {
+        id: 2,
+        img: Theme2,
+        color: 'hsl(4, 93%, 54%)',
+    },
 
-//     {
-//         id: 3,
-//         img: Theme3,
-//         color: 'hsl(271, 76%, 53%)',
-//     },
+    {
+        id: 3,
+        img: Theme3,
+        color: 'hsl(271, 76%, 53%)',
+    },
 
-//     {
-//         id: 4,
-//         img: Theme4,
-//         color: 'hsl(225, 73%, 57%)',
-//     },
+    {
+        id: 4,
+        img: Theme4,
+        color: 'hsl(225, 73%, 57%)',
+    },
 
-//     {
-//         id: 5,
-//         img: Theme5,
-//         color: 'hsl(43, 74%, 49%)',
-//     },
+    {
+        id: 5,
+        img: Theme5,
+        color: 'hsl(43, 74%, 49%)',
+    },
 
-//     {
-//         id: 6,
-//         img: Theme6,
-//         color: 'hsl(339, 81%, 66%)',
-//     },
+    {
+        id: 6,
+        img: Theme6,
+        color: 'hsl(339, 81%, 66%)',
+    },
 
-//     {
-//         id: 7,
-//         img: Theme7,
-//         color: 'hsl(80, 61%, 50%)',
-//     },
+    {
+        id: 7,
+        img: Theme7,
+        color: 'hsl(80, 61%, 50%)',
+    },
 
-//     {
-//         id: 8,
-//         img: Theme8,
-//         color: 'hsl(19, 96%, 52%)',
-//     },
+    {
+        id: 8,
+        img: Theme8,
+        color: 'hsl(19, 96%, 52%)',
+    },
 
-//     {
-//         id: 9,
-//         img: Theme9,
-//         color: 'hsl(88, 65%, 43%)',
-//     },
+    {
+        id: 9,
+        img: Theme9,
+        color: 'hsl(88, 65%, 43%)',
+    },
 
-//     {
-//         id: 10,
-//         img: Theme10,
-//         color: 'hsl(42, 100%, 50%)',
-//     },
-// ];
+    {
+        id: 10,
+        img: Theme10,
+        color: 'hsl(42, 100%, 50%)',
+    },
+];

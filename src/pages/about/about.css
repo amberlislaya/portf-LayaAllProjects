@@ -28,10 +28,10 @@
 }
 
 .stats__box {
-    border: 1px solid var(--border-color);
+    /* border: 1px solid var(--border-color); */
     padding: 20px 30px 25px;
     border-radius: 15px;
-    box-shadow: 10px 12px 5px black;
+    box-shadow: 5px 12px 5px rgb(7, 206, 216);
     
 
 }
@@ -139,7 +139,7 @@
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
-    box-shadow: 0px 10px 5px black;
+    box-shadow: 0 5px 5px rgb(7, 206, 216);
 }
 
 .resume__date {
