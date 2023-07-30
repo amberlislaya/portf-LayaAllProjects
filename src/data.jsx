@@ -187,7 +187,7 @@ export const resume = [
     },
 
     {
-        id: 5,
+        id: 6,
         category: 'education',
         icon: <FaGraduationCap />,
         year: '2015',
@@ -196,7 +196,7 @@ export const resume = [
     },
 
     {
-        id: 6,
+        id: 7,
         category: 'education',
         icon: <FaGraduationCap />,
         year: '2023',
