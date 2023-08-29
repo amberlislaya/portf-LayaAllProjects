@@ -10,11 +10,11 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/port2.png';
-import Work3 from './assets/port3.png';
-import Work4 from './assets/port4.png';
-import Work5 from './assets/rym.png';
-import Work6 from './assets/rym2.png';
+import Work2 from './assets/portlayaCapture.png';
+import Work4 from './assets/MoviesPlayCapture.png';
+import Work5 from './assets/amberlisMovieCapture.png';
+import Work6 from './assets/amberlisMovieCapture.png';
+import Work3 from './assets/rickandmortyCapture.png';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -266,7 +266,7 @@ export const portfolio = [
             {
                 icon: <FiExternalLink />,
                 title: 'Preview : ',
-                desc: <a href="https://portf-layam.netlify.app/" target="_blank" rel="noopener noreferrer">https://portf-layam.netlify.app/</a>,
+                desc: <a href="https://portfolio-amberlislaya.netlify.app/" target="_blank" rel="noopener noreferrer">https://portfolio-amberlislaya.netlify.app/</a>,
                 
             },
         ],
@@ -295,7 +295,7 @@ export const portfolio = [
             {
                 icon: <FiExternalLink />,
                 title: 'Preview : ',
-                desc: <a href="https://rickmortylaya.netlify.app/" target="_blank" rel="noopener noreferrer">https://rickmortylaya.netlify.app/</a>,
+                desc: <a href="https://portf-layam.netlify.app" target="_blank" rel="noopener noreferrer">https://portf-layam.netlify.app/</a>,
                 
             },
         ],
@@ -324,7 +324,7 @@ export const portfolio = [
             {
                 icon: <FiExternalLink />,
                 title: 'Preview : ',
-                desc: 'www.dribble.com',
+                desc: <a href="https://rickmortylaya.netlify.app/" target="_blank" rel="noopener noreferrer">https://rickmortylaya.netlify.app/</a>,
             },
         ],
     },
@@ -352,7 +352,7 @@ export const portfolio = [
             {
                 icon: <FiExternalLink />,
                 title: 'Preview : ',
-                desc: 'www.dribble.com',
+                desc: <a href="https://luiggi2092.github.io/MoviePlayFront/" target="_blank" rel="noopener noreferrer">https://luiggi2092.github.io/MoviePlayFront/</a>,
             },
         ],
     },
