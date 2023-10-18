@@ -12,7 +12,7 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 import Work1 from './assets/project-1.jpeg';
 import Work2 from './assets/portlayaCapture.png';
 import Work4 from './assets/MoviesPlayCapture.png';
-import Work5 from './assets/amberlisMovieCapture.png';
+import Work5 from './assets/amberlistv-capture.png';
 import Work6 from './assets/amberlisMovieCapture.png';
 import Work3 from './assets/rickandmortyCapture.png';
 
@@ -209,36 +209,36 @@ export const skills = [
     {
         id: 1,
         title: 'Html',
-        percentage: '35',
+        percentage: '45',
     },
 
     {
         id: 2,
         title: 'Javascript',
-        percentage: '70',
+        percentage: '80',
     },
 
     {
         id: 3,
         title: 'Css',
-        percentage: '80',
+        percentage: '85',
     },
 
     {
         id: 5,
         title: 'Wordpress',
-        percentage: '95',
+        percentage: '90',
     },
 
     {
         id: 6,
         title: 'Jquery',
-        percentage: '45',
+        percentage: '55',
     },
     {
         id: 8,
         title: 'React',
-        percentage: '45',
+        percentage: '65',
     },
 ];
 
@@ -246,7 +246,7 @@ export const portfolio = [
     {
         id: 1,
         img: Work1,
-        title: 'Portfolio Digital',
+        title: 'PortfolioAll Digital',
         details: [
             {
                 icon: <FiFileText />,
@@ -275,22 +275,22 @@ export const portfolio = [
     {
         id: 2,
         img: Work2,
-        title: 'Website Design',
+        title: 'PortFolio2',
         details: [
             {
                 icon: <FiFileText />,
                 title: 'Project : ',
-                desc: 'Website Rick And Morty',
+                desc: 'Portf Amberlis Laya',
             },
             {
                 icon: <FiUser />,
                 title: 'Client : ',
-                desc: ' Soy Henry',
+                desc: ' Personal',
             },
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'React JSX',
+                desc: 'React JSX, Bootstrap',
             },
             {
                 icon: <FiExternalLink />,
@@ -304,7 +304,7 @@ export const portfolio = [
     {
         id: 3,
         img: Work3,
-        title: 'Country Website',
+        title: 'RICK AND MORTY',
         details: [
             {
                 icon: <FiFileText />,
@@ -332,22 +332,22 @@ export const portfolio = [
     {
         id: 4,
         img: Work4,
-        title: 'Video Editing',
+        title: 'MOVIEPLAY',
         details: [
             {
                 icon: <FiFileText />,
-                title: 'Project : ',
-                desc: 'Video',
+                title: 'Project Grupal: ',
+                desc: 'Movies-series-',
             },
             {
                 icon: <FiUser />,
                 title: 'Client : ',
-                desc: 'Dribble',
+                desc: 'Soy Henry',
             },
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'Adobe Premium',
+                desc: 'React JS, Node JS, SQL, MongoDB, Node, Vite',
             },
             {
                 icon: <FiExternalLink />,
@@ -360,23 +360,23 @@ export const portfolio = [
     {
         id: 5,
         img: Work5,
-        title: 'Landing Page',
+        title: 'AMBERLISTV',
         details: [
-            {
+            {   icon: <FiFileText />,
                 title: 'Project : ',
-                desc: 'Website',
+                desc: 'Website movies-series (EN CURSO)',
             },
-            {
+            {   icon: <FiUser />,
                 title: 'Client : ',
-                desc: 'Dribble',
+                desc: 'Personal',
             },
-            {
+            {   icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'React JS, Node JS',
+                desc: 'React JS, Node JS, SQL, MongoDB, Node, Tailwind',
             },
-            {
+            {   icon: <FiExternalLink />,
                 title: 'Preview : ',
-                desc: 'www.dribble.com',
+                desc: <a href="https://amberlistv.netlify.app/" target="_blank" rel="noopener noreferrer">https://amberlistv.netlify.app/</a>,
             },
         ],
     },
@@ -384,26 +384,26 @@ export const portfolio = [
     {
         id: 6,
         img: Work6,
-        title: 'Photo Editing',
+        title: 'GAGASCHOOL',
         details: [
             {
                 icon: <FiFileText />,
-                title: 'Project : ',
-                desc: 'Photo',
+                title: 'Project Institucion Educativa(EN CURSO): ',
+                desc: 'website Tareas, sitios, proyectos',
             },
             {
                 icon: <FiUser />,
                 title: 'Client : ',
-                desc: 'Dribble',
+                desc: 'Posibles Instituciones Educativas',
             },
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'Adobe Photoshop',
+                desc: 'React, Next, SQL, Node, Tailwind, Firebase, Prisma',
             },
             {
                 icon: <FiExternalLink />,
-                title: 'Preview : ',
+                title: 'PROXIMAMENTE : ',
                 desc: 'www.dibble.com',
             },
         ],
