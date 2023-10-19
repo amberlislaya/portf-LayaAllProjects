@@ -15,6 +15,7 @@ import Work4 from './assets/MoviesPlayCapture.png';
 import Work5 from './assets/amberlistv-capture.png';
 import Work6 from './assets/amberlisMovieCapture.png';
 import Work3 from './assets/rickandmortyCapture.png';
+import Work7 from './assets/capt-tareas.png';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -329,6 +330,8 @@ export const portfolio = [
         ],
     },
 
+    
+
     {
         id: 4,
         img: Work4,
@@ -353,6 +356,30 @@ export const portfolio = [
                 icon: <FiExternalLink />,
                 title: 'Preview : ',
                 desc: <a href="https://luiggi2092.github.io/MoviePlayFront/" target="_blank" rel="noopener noreferrer">https://luiggi2092.github.io/MoviePlayFront/</a>,
+            },
+        ],
+    },
+
+    {
+        id: 7,
+        img: Work7,
+        title: 'MIS APPS',
+        details: [
+            {   icon: <FiFileText />,
+                title: 'Project : ',
+                desc: 'Website lista de tareas o projectos ',
+            },
+            {   icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {   icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'React JSX, firebase Tailwind',
+            },
+            {   icon: <FiExternalLink />,
+                title: 'Preview : ',
+                desc: <a href="https://misapps.netlify.app/" target="_blank" rel="noopener noreferrer">https://misapps.netlify.app/</a>,
             },
         ],
     },
