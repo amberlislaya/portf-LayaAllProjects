@@ -53,12 +53,12 @@
 }
 
 .portfolio__modal-conten {
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .modal__close {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
 
 .form__input-group {
@@ -177,8 +177,9 @@ grid-column: 1/-1;
 }
 
 .modal__close {
-    top: -9;
+    top: -10;
     right: 0;
+    
 }
 }
 

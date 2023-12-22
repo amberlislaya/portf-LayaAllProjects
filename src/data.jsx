@@ -10,12 +10,26 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/portlayaCapture.png';
-import Work4 from './assets/MoviesPlayCapture.png';
-import Work5 from './assets/amberlistv-capture.png';
-import Work6 from './assets/amberlisMovieCapture.png';
+import Work2 from './assets/cap1porrt.png';
 import Work3 from './assets/rickandmortyCapture.png';
-import Work7 from './assets/capt-tareas.png';
+import Work4 from './assets/MoviesPlayCapture.png';
+import Work5 from './assets/amberlisvideo.png';
+import Work6 from './assets/capfrongianshop.png';
+import Work7 from './assets/captnikeshop.png';
+import Work8 from './assets/capgym.png';
+import Work9 from './assets/layaglobalcapture.png';
+import Work10 from './assets/capnotas.png';
+import Work11 from './assets/capt.restverde.png';
+import Work12 from './assets/capchicken.png';
+import Work13 from './assets/captu-layarest.png';
+import Work14 from './assets/ambervideoCap.png';
+import Work15 from './assets/capblogpro.png';
+import Work16 from './assets/cap.rider.png';
+import Work17 from './assets/capfoddlaya.png';
+import Work18 from './assets/ambertvencur.png';
+
+
+
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -118,7 +132,7 @@ export const personalInfo = [
 export const stats = [
     {
         id: 1,
-        no: '12+',
+        no: '2+',
         title: 'Years of <br /> Experience',
     },
 
@@ -134,11 +148,6 @@ export const stats = [
         title: 'Happy <br /> Customers',
     },
 
-    {
-        id: 4,
-        no: '53+',
-        title: ' Awards <br /> Won',
-    },
 ];
 
 export const resume = [
@@ -216,7 +225,7 @@ export const skills = [
     {
         id: 2,
         title: 'Javascript',
-        percentage: '80',
+        percentage: '66.50',
     },
 
     {
@@ -224,22 +233,22 @@ export const skills = [
         title: 'Css',
         percentage: '85',
     },
-
     {
-        id: 5,
-        title: 'Wordpress',
-        percentage: '90',
+        id: 3,
+        title: 'Next',
+        percentage: '45',
     },
+
 
     {
         id: 6,
-        title: 'Jquery',
+        title: 'Typescript',
         percentage: '55',
     },
     {
         id: 8,
         title: 'React',
-        percentage: '65',
+        percentage: '75',
     },
 ];
 
@@ -247,7 +256,7 @@ export const portfolio = [
     {
         id: 1,
         img: Work1,
-        title: 'PortfolioAll Digital',
+        title: 'PORTAFOLIO AMBERLIS',
         details: [
             {
                 icon: <FiFileText />,
@@ -266,7 +275,6 @@ export const portfolio = [
             },
             {
                 icon: <FiExternalLink />,
-                title: 'Preview : ',
                 desc: <a href="https://portfolio-amberlislaya.netlify.app/" target="_blank" rel="noopener noreferrer">https://portfolio-amberlislaya.netlify.app/</a>,
                 
             },
@@ -276,12 +284,12 @@ export const portfolio = [
     {
         id: 2,
         img: Work2,
-        title: 'PortFolio2',
+        title: 'PORTFOLIO',
         details: [
             {
                 icon: <FiFileText />,
                 title: 'Project : ',
-                desc: 'Portf Amberlis Laya',
+                desc: 'Portfolio',
             },
             {
                 icon: <FiUser />,
@@ -295,7 +303,6 @@ export const portfolio = [
             },
             {
                 icon: <FiExternalLink />,
-                title: 'Preview : ',
                 desc: <a href="https://portf-layam.netlify.app" target="_blank" rel="noopener noreferrer">https://portf-layam.netlify.app/</a>,
                 
             },
@@ -309,22 +316,21 @@ export const portfolio = [
         details: [
             {
                 icon: <FiFileText />,
-                title: 'Project Individual: ',
+                title: 'PROYECTO: ',
                 desc: 'Web',
             },
             {
                 icon: <FiUser />,
                 title: 'Soy Henry : ',
-                desc: 'Dribble',
+                desc: 'Proyecto',
             },
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'React Jsx, SQL, Redux, DB',
+                desc: 'React Jsx, Bootstrap, Api,',
             },
             {
                 icon: <FiExternalLink />,
-                title: 'Preview : ',
                 desc: <a href="https://rickmortylaya.netlify.app/" target="_blank" rel="noopener noreferrer">https://rickmortylaya.netlify.app/</a>,
             },
         ],
@@ -354,32 +360,7 @@ export const portfolio = [
             },
             {
                 icon: <FiExternalLink />,
-                title: 'Preview : ',
                 desc: <a href="https://luiggi2092.github.io/MoviePlayFront/" target="_blank" rel="noopener noreferrer">https://luiggi2092.github.io/MoviePlayFront/</a>,
-            },
-        ],
-    },
-
-    {
-        id: 7,
-        img: Work7,
-        title: 'MIS APPS',
-        details: [
-            {   icon: <FiFileText />,
-                title: 'Project : ',
-                desc: 'Website lista de tareas o projectos ',
-            },
-            {   icon: <FiUser />,
-                title: 'Client : ',
-                desc: 'Personal',
-            },
-            {   icon: <FaCode />,
-                title: 'Language : ',
-                desc: 'React JSX, firebase Tailwind',
-            },
-            {   icon: <FiExternalLink />,
-                title: 'Preview : ',
-                desc: <a href="https://misapps.netlify.app/" target="_blank" rel="noopener noreferrer">https://misapps.netlify.app/</a>,
             },
         ],
     },
@@ -387,11 +368,11 @@ export const portfolio = [
     {
         id: 5,
         img: Work5,
-        title: 'AMBERLISTV',
+        title: 'AMBERLIS',
         details: [
             {   icon: <FiFileText />,
                 title: 'Project : ',
-                desc: 'Website movies-series (EN CURSO)',
+                desc: 'Website Videos ',
             },
             {   icon: <FiUser />,
                 title: 'Client : ',
@@ -399,11 +380,10 @@ export const portfolio = [
             },
             {   icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'React JS, Node JS, SQL, MongoDB, Node, Tailwind',
+                desc: 'React JSX, Tailwind, ApiRapi',
             },
             {   icon: <FiExternalLink />,
-                title: 'Preview : ',
-                desc: <a href="https://amberlistv.netlify.app/" target="_blank" rel="noopener noreferrer">https://amberlistv.netlify.app/</a>,
+                desc: <a href="https://amberlisvideo.netlify.app/" target="_blank" rel="noopener noreferrer">https://amberlisvideo.netlify.app/</a>,
             },
         ],
     },
@@ -411,27 +391,336 @@ export const portfolio = [
     {
         id: 6,
         img: Work6,
-        title: 'GAGASCHOOL',
+        title: 'GIAMSHOP',
+        details: [
+            {   icon: <FiFileText />,
+                title: 'Ecommerce : ',
+                desc: 'Ecommerce Funcional (EN CURSO)',
+            },
+            {   icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {   icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'React JS, Node JS, SQL, MongoDB, Postman, Node, Tailwind',
+            },
+            {   icon: <FiExternalLink />,
+                desc: <a href="https://giam-frontend-amberlislaya.vercel.app" target="_blank" rel="noopener noreferrer">https://giam-frontend-amberlislaya.vercel.app</a>,
+            },
+        ],
+    },
+
+    {
+        id: 7,
+        img: Work7,
+        title: 'NIKSHOP',
         details: [
             {
                 icon: <FiFileText />,
-                title: 'Project Institucion Educativa(EN CURSO): ',
-                desc: 'website Tareas, sitios, proyectos',
+                title: 'Ecommerce Nike ',
+                desc: 'website',
             },
             {
                 icon: <FiUser />,
                 title: 'Client : ',
-                desc: 'Posibles Instituciones Educativas',
+                desc: 'Personal',
             },
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'React, Next, SQL, Node, Tailwind, Firebase, Prisma',
+                desc: 'React-Vite, Tailwind ',
             },
             {
                 icon: <FiExternalLink />,
-                title: 'PROXIMAMENTE : ',
-                desc: 'www.dibble.com',
+                desc: <a href="https://nik-shop-amberlislaya.vercel.app/" target="_blank" rel="noopener noreferrer">https://nik-shop-amberlislaya.vercel.app/</a>,
+            },
+        ],
+    },
+    {
+        id: 8,
+        img: Work8,
+        title: 'STRENGTH',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'website gym ',
+                desc: 'website',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'Html, Css ',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://web-gym-amberlislaya.vercel.app/" target="_blank" rel="noopener noreferrer">https://web-gym-amberlislaya.vercel.app/</a>,
+            },
+        ],
+    },
+    {
+        id: 9,
+        img: Work9,
+        title: 'LAYAGLOBAL',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'website Buscador global ',
+                desc: 'website',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'React-Vite, Tailwind ',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://lmglobal-amberlislaya.vercel.app/" target="_blank" rel="noopener noreferrer">https://lmglobal-amberlislaya.vercel.app/</a>,
+            },
+        ],
+    },
+    {
+        id: 10,
+        img: Work10,
+        title: 'LayaNotas',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'App Notas ',
+                desc: 'app',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'Create React App ',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://laya-notas.netlify.app/" target="_blank" rel="noopener noreferrer">https://laya-notas.netlify.app/</a>,
+            },
+        ],
+    },
+   
+    {
+        id: 11,
+        img: Work11,
+        title: 'LAYA',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'website restaurante ',
+                desc: 'website',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'Html, Css ',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://laya-restaurante-amberlislaya.vercel.app/" target="_blank" rel="noopener noreferrer">https://laya-restaurante-amberlislaya.vercel.app/</a>,
+            },
+        ],
+    },
+    {
+        id: 12,
+        img: Work12,
+        title: 'CHICKEN',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'website restaurante ',
+                desc: 'website',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'Html, Css ',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://chicken-laya.netlify.app/" target="_blank" rel="noopener noreferrer">https://chicken-laya.netlify.app/</a>,
+            },
+        ],
+    },
+    {
+        id: 13,
+        img: Work13,
+        title: 'LAYA.REST',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'website restaurante ',
+                desc: 'website',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'Html, Css ',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://restolay-amberlislaya.vercel.app/" target="_blank" rel="noopener noreferrer">https://restolay-amberlislaya.vercel.app/</a>,
+            },
+        ],
+    },
+    {
+        id: 14,
+        img: Work14,
+        title: 'AMBERVIDEO',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'website videos ',
+                desc: 'website',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'React, Tailwind ',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://ambervideo.netlify.app/" target="_blank" rel="noopener noreferrer">https://ambervideo.netlify.app/</a>,
+            },
+        ],
+    },
+    {
+        id: 15,
+        img: Work15,
+        title: 'BLOGPRO',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'BLOG ',
+                desc: 'website',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'React, Auth, API ',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://blogpro-amberlislaya.vercel.app/" target="_blank" rel="noopener noreferrer">https://blogpro-amberlislaya.vercel.app/</a>,
+            },
+        ],
+    },
+    {
+        id: 16,
+        img: Work16,
+        title: 'RIDER',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'Rent Auto ',
+                desc: 'website',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'Html, Css ',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://rider-amberlislaya.vercel.app/#" target="_blank" rel="noopener noreferrer">https://rider-amberlislaya.vercel.app/#</a>,
+            },
+        ],
+    },
+    {
+        id: 17,
+        img: Work17,
+        title: 'FOODLAYA',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'website food ',
+                desc: 'website',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'Html, Css',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://foodlaya.netlify.app/" target="_blank" rel="noopener noreferrer">https://foodlaya.netlify.app/</a>,
+            },
+        ],
+    },
+    {
+        id: 18,
+        img: Work18,
+        title: 'AMBERLISTV (EN CURSO)',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'website Tv ',
+                desc: 'website',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'React, Firebase, Stripe, Auth, SQL, Mondodb',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://new-tv-rho.vercel.app/" target="_blank" rel="noopener noreferrer">https://new-tv-rho.vercel.app/</a>,
             },
         ],
     },
