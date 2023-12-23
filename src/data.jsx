@@ -27,6 +27,8 @@ import Work15 from './assets/capblogpro.png';
 import Work16 from './assets/cap.rider.png';
 import Work17 from './assets/capfoddlaya.png';
 import Work18 from './assets/ambertvencur.png';
+import Work19 from './assets/cappetshop.png';
+import Work20 from './assets/educap.png';
 
 
 
@@ -419,7 +421,7 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'Ecommerce Nike ',
-                desc: 'website',
+                
             },
             {
                 icon: <FiUser />,
@@ -445,7 +447,7 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'website gym ',
-                desc: 'website',
+                
             },
             {
                 icon: <FiUser />,
@@ -471,7 +473,7 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'website Buscador global ',
-                desc: 'website',
+                
             },
             {
                 icon: <FiUser />,
@@ -497,7 +499,7 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'App Notas ',
-                desc: 'app',
+                
             },
             {
                 icon: <FiUser />,
@@ -524,7 +526,7 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'website restaurante ',
-                desc: 'website',
+                
             },
             {
                 icon: <FiUser />,
@@ -534,7 +536,7 @@ export const portfolio = [
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'Html, Css ',
+                desc: 'Html, JavaScript, Css',
             },
             {
                 icon: <FiExternalLink />,
@@ -550,7 +552,7 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'website restaurante ',
-                desc: 'website',
+                
             },
             {
                 icon: <FiUser />,
@@ -560,7 +562,7 @@ export const portfolio = [
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'Html, Css ',
+                desc: 'Html, JavaScript, Css',
             },
             {
                 icon: <FiExternalLink />,
@@ -576,7 +578,7 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'website restaurante ',
-                desc: 'website',
+               
             },
             {
                 icon: <FiUser />,
@@ -586,7 +588,7 @@ export const portfolio = [
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'Html, Css ',
+                desc: 'Html, JavaScript, Css',
             },
             {
                 icon: <FiExternalLink />,
@@ -602,7 +604,7 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'website videos ',
-                desc: 'website',
+                
             },
             {
                 icon: <FiUser />,
@@ -628,7 +630,7 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'BLOG ',
-                desc: 'website',
+                
             },
             {
                 icon: <FiUser />,
@@ -654,7 +656,7 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'Rent Auto ',
-                desc: 'website',
+                
             },
             {
                 icon: <FiUser />,
@@ -664,7 +666,7 @@ export const portfolio = [
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'Html, Css ',
+                desc: 'Html, JavaScript, Css',
             },
             {
                 icon: <FiExternalLink />,
@@ -680,7 +682,7 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'website food ',
-                desc: 'website',
+                
             },
             {
                 icon: <FiUser />,
@@ -690,7 +692,7 @@ export const portfolio = [
             {
                 icon: <FaCode />,
                 title: 'Language : ',
-                desc: 'Html, Css',
+                desc: 'Html, JavaScript, Css',
             },
             {
                 icon: <FiExternalLink />,
@@ -706,7 +708,7 @@ export const portfolio = [
             {
                 icon: <FiFileText />,
                 title: 'website Tv ',
-                desc: 'website',
+                
             },
             {
                 icon: <FiUser />,
@@ -721,6 +723,58 @@ export const portfolio = [
             {
                 icon: <FiExternalLink />,
                 desc: <a href="https://new-tv-rho.vercel.app/" target="_blank" rel="noopener noreferrer">https://new-tv-rho.vercel.app/</a>,
+            },
+        ],
+    },
+    {
+        id: 19,
+        img: Work19,
+        title: 'YOURPET',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'website petshop ',
+                
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'Html, JavaScript, Css',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://yourpet-git-main-amberlislaya.vercel.app/" target="_blank" rel="noopener noreferrer">https://yourpet-git-main-amberlislaya.vercel.app/</a>,
+            },
+        ],
+    },
+    {
+        id: 20,
+        img: Work20,
+        title: 'EDUCATION',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'website education ',
+                
+            },
+            {
+                icon: <FiUser />,
+                title: 'Client : ',
+                desc: 'Personal',
+            },
+            {
+                icon: <FaCode />,
+                title: 'Language : ',
+                desc: 'Html, JavaScript, Css',
+            },
+            {
+                icon: <FiExternalLink />,
+                desc: <a href="https://edu-cation-git-main-amberlislaya.vercel.app/" target="_blank" rel="noopener noreferrer">https://edu-cation-git-main-amberlislaya.vercel.app/</a>,
             },
         ],
     },
