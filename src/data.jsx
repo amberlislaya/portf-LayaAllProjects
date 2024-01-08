@@ -408,7 +408,7 @@ export const portfolio = [
                 desc: 'React JS, Node JS, SQL, MongoDB, Postman, Node, Tailwind, Dashboard',
             },
             {   icon: <FiExternalLink />,
-                desc: <a href="https://giam-frontend-amberlislaya.vercel.app" target="_blank" rel="noopener noreferrer">https://giam-frontend-amberlislaya.vercel.app</a>,
+                desc: <a href="https://giamshp-amberlislaya.vercel.app/" target="_blank" rel="noopener noreferrer">https://giamshp-amberlislaya.vercel.app/</a>,
             },
         ],
     },
