@@ -393,7 +393,7 @@ export const portfolio = [
     {
         id: 6,
         img: Work6,
-        title: 'GIAMSHOP',
+        title: 'GIAMZON',
         details: [
             {   icon: <FiFileText />,
                 title: 'Ecommerce : ',
