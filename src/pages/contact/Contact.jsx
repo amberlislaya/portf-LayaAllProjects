@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useState } from 'react';
 import {
   FaFacebookF,
   FaWhatsapp,
@@ -10,13 +10,46 @@ import {
   FaInstagram,
 } from 'react-icons/fa';
 import { FiSend } from 'react-icons/fi'
+import emailjs from '@emailjs/browser';
+import Modal from 'react-modal';
 import './contact.css'
 
 
-
+Modal.setAppElement('#root');
 
 const Contact = () => {
+
+const form = useRef();
+const [modalIsOpen, setModalIsOpen] = useState(false);
+
+
+
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm('service_jrif2lw', 'template_acqj6u9', form.current, {
+    publicKey: '8SSwEnR46_Pd8xb1w',
+})
+.then(
+() => {
+console.log('SUCCESS!');
+setModalIsOpen(true);
+form.current.reset();
+})
+.catch((error) => {
+console.log('FAILED...', error.text);
+},
+);
+};
+
+
+
+
+
   return (
+
+
+
 < section className = "contact section" >
     <h2 className='section__title'>Get in <span>Touch</span>
 	</h2>
@@ -79,22 +112,25 @@ const Contact = () => {
 
 </div>
 
-<form className="contact__form" action='/send-email' method='post'>
+<form className="contact__form" ref={form}onSubmit={sendEmail} method='post'>
 <div className="form__input-group">
 <div className="form__input-div">
 <input type="text" 
+  name='user_name'
 	placeholder='Your Name' 
  	className="form__control" />
 </div>
 
 <div className="form__input-div">
 <input type="email" 
-   placeholder='Your Email' 
-   className="form__control" />
+name='user_email'
+placeholder='Your Email' 
+className="form__control" />
 </div>
 
 <div className="form__input-div">
 <input type="text" 
+   name='subject'
    placeholder='Your Subject' 
    className="form__control" />
 </div>
@@ -105,18 +141,37 @@ const Contact = () => {
 
 <div className="form__input-div">
 	<textarea placeholder='Your Message'
+    name='message'
 		className="form__control textarea">
 	</textarea>
 </div>
 
-<button className="button">
+<button className="button"
+name='send' type='submit'
+>
   Send Message 
 <span className="button__icon contact__button-icon">
 <FiSend/>
 </span>
 </button>
+
 </form>
 </div>
+
+<Modal
+  isOpen={modalIsOpen}
+  onRequestClose={() => setModalIsOpen(false)}
+  contentLabel="Message Sent Modal"
+  className="custom-modal"
+  overlayClassName="custom-overlay"
+>
+  <div className="modal-content">
+    <h2 className="modal-title">Message sent successfully!</h2>
+    <button className="close-button" onClick={() => setModalIsOpen(false)}>Close</button>
+  </div>
+</Modal>
+
+
 </section>
 
 )
